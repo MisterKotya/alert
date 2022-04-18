@@ -259,7 +259,7 @@ if (number === 2 || number === 3) {
   console.log(finalPrice);*/
 
 
-  const name = `Alex`;
+  /*const name = `Alex`;
   let final = 0;
 
   if (name === `Alex`) {
@@ -338,4 +338,26 @@ if (number === 2 || number === 3) {
   //const result = calculateFinalPrice(); // после отработки ф-ции, запись результата 
   //console.log(result);
   // или снизу второй вариант, более лаконичный
-  //console.log(calculateFinalPrice); // после обработки, запись и вывод результата
+  //console.log(calculateFinalPrice); // после обработки, запись и вывод результата*/
+
+
+  Перепишите функцию, чтобы она делала то же самое, но без if, в одну строку.
+
+  Сделайте два варианта функции checkAge:
+  
+      Используя оператор ?
+      Используя оператор ||
+  
+
+
+  function checkAge(age) {
+    if (age > 18) {
+      return true;
+    } else {
+      return confirm('Родители разрешили?');
+    }
+  }
+
+function checkAge (age) {
+  let message = (age > 18) ? ''
+}
