@@ -1,4 +1,4 @@
-Используя конструкцию if..else, напишите код, который будет спрашивать: „Какое «официальное» название JavaScript?“
+/*Используя конструкцию if..else, напишите код, который будет спрашивать: „Какое «официальное» название JavaScript?“
 
 Если пользователь вводит «ECMAScript», то показать: «Верно!», в противном случае – отобразить: «Не знаете? ECMAScript!»
 
@@ -177,4 +177,35 @@ for (let i = 2; i <= n; i++) { // Для всех i...
     }
   
     alert( i ); // простое число
+  }*/
+
+
+  
+
+  //showHello();
+  //showHello();
+ 
+
+
+  function calcTest () {
+      const x = 5;
+      const y = 10;
+      console.log(x+y);
   }
+
+  function showHello () {
+    console.log('Hello');
+    calcTest();    
+  }
+function calcTest2 () {
+    function t3() {
+        console.log('t3 function');
+    }
+    t3();
+    console.log('test calcTest2');
+}
+
+
+showHello();
+calcTest2 ();
+//t3(); !Error

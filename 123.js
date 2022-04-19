@@ -341,12 +341,12 @@ if (number === 2 || number === 3) {
   //console.log(calculateFinalPrice); // после обработки, запись и вывод результата*/
 
 
-  Перепишите функцию, чтобы она делала то же самое, но без if, в одну строку.
+  /*Перепишите функцию, чтобы она делала то же самое, но без if, в одну строку.
 
   Сделайте два варианта функции checkAge:
   
       Используя оператор ?
-      Используя оператор ||
+      Используя оператор ||*/
   
 
 
@@ -357,7 +357,27 @@ if (number === 2 || number === 3) {
       return confirm('Родители разрешили?');
     }
   }
+  alert(age);
 
-function checkAge (age) {
-  let message = (age > 18) ? ''
+  /*function checkAge(age) { return (age > 18) ? `true`: 'Родители разрешили?';}
+function checkAge(age) { return (age > 18) || confirm('Родители разрешили?');}
+
+Напишите функцию min(a,b), которая возвращает меньшее из чисел a и b.
+Пример вызовов:
+min(2, 5) == 2
+min(3, -1) == -1
+min(1, 1) == 1  
+
+function min(a, b) {
+  if (a < b) {
+    return a;
+  } else {
+    return b;
+  }
 }
+
+function pow(x,n) {
+  if (x**n) {
+    return x;
+  }
+}*/
